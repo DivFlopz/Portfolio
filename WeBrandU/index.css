@@ -1,0 +1,101 @@
+
+#navbar{
+    transition: all 1s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+
+}
+
+#brandImage{
+    width: 2rem;
+    visibility: hidden;
+    transition: all 1s;
+}
+
+#navbarNav ul{
+    margin-right: 1rem;
+}
+
+#navbarNav li{
+    margin: 1rem;
+}
+#header{
+    padding-bottom: 200rem;
+    padding-top: 15rem;
+    background: linear-gradient(180deg, rgba(255,145,84,1) 20%, rgba(143,117,230,1) 80%);
+    color: white;
+    font-family: montserrat;
+}
+
+#image{
+    height: 25rem;
+    width: auto;
+}
+
+#marketing{
+    margin-top: 25rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#marketingImage{
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+#marketingText{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+#marketingImage img{
+
+}
+
+#mobileMarketing{
+    margin-top: 25rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+#mobileMarketingImage{
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+#mobileMarketingText{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+
+#mobileMarketingImage img{
+
+}
+
+#firstSection{
+    background: linear-gradient(180deg, rgba(143,117,230,1) 20%, rgba(116,215,252,1) 80%);
+    padding-bottom: 100rem;
+}
+
+#secondSection{
+    background: linear-gradient(180deg, rgba(116,215,252,1) 20%, rgba(111,242,148,1) 80%);
+    padding-bottom: 100rem;
+}
+
+#thirdSection{
+    background: linear-gradient(180deg, rgba(111,242,148,1) 20%, rgba(255,255,255,1) 80%);
+    padding-bottom: 100rem;
+}
+
+
+
+

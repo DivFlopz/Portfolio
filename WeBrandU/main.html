@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="prueba.css">
+    <link rel="stylesheet" href="fonts.css">
+    
+    <title>We Brand U</title>
+  </head>
+    
+<body>
+    <div class="container" style="text-align: left;">
+     <div class="first">
+          <div class="container" style="text-align: left; color: ; margin-top: 30%">
+
+              <br>
+      <h2>Soluciones creativas con la capacidad de orientar <br>y desarrollar estrategias flexibles y amigables</h2>
+              <br>
+              <h1 class="display-1" style="text-align: justify">We Brand U</h1>
+              <br>
+          </div>
+
+
+    <br>
+    <br>
+
+
+
+    <button type="button" class="btn btn-primary" href="Index.html">Conócenos</button>
+    <span class="color color--green" data-value="1"></span>
+    <span class="color color--blue" data-value="1"></span>
+    <span class="color color--purple" data-value="1"></span>
+    <span class="color color--orange" data-value="1"></span>
+    
+    
+    
+    </div>
+        </div>
+    <script>
+
+    const button = document.querySelector('.btn');
+  button.addEventListener('click',(e)=>{
+    
+    e.preventDefault();
+    button.classList.add('btn--clicked');
+    document.querySelectorAll('span').forEach((element)=>{element.classList.add('expanded')})
+    
+    
+    /* 
+---------------------------------------
+just to reset without having to refresh..
+ --------------------------------*/
+      setTimeout(()=>{location.href = 'Index.html'}, 1500);
+     setTimeout(()=>{button.classList.remove("btn--clicked")},3500);
+     setTimeout(()=>{document.querySelectorAll('span').forEach((element)=>{element.classList.remove('expanded')})},1700)});
+
+    </script>
+
+    
+    </body>
+</html>

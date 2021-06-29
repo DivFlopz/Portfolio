@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  .background: background: linear-gradient(90deg, rgba(255,145,84,1) 0%, rgba(255,255,255,1) 80%);
+  display: flex;
+  
+  height: 100vh;
+}
+
+span{
+    font-size: 3rem;
+}
+
+button{
+    align-items: center;
+}
+.btn {
+    align-content: center;
+  font-family: montserrat;
+src:url(fuentes/montserratAlternates-bold.ttf);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  background-color: #1b8bf9;
+  padding: 1px 50px;
+  border-radius: 5rem;
+  box-shadow: 1px 2.9px 16px rgba(27, 139, 249, 0.4);
+  transition: 0.6s cubic-bezier(0.01, 1.69, 0.99, 0.94);
+}
+.btn:hover {
+  box-shadow: 3px 4.9px 16px rgba(27, 139, 249, 0.6);
+  letter-spacing: 5px;
+}
+.btn--clicked {
+  transition: 0.6s cubic-bezier(0.01, 1.69, 0.99, 0.94);
+  padding: 15px 2px;
+  width: 50px;
+  color: transparent;
+  z-index: -10;
+}
+
+.color {
+  display: block;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition: 0.8s ease;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.expanded {
+  width: 200%;
+  padding-bottom: 200%;
+  height: auto;
+}
+.color--green {
+  background-color: #6FF294;
+  transition-delay: .3s;
+}
+
+.color--blue {
+  background-color: #74D7FC;
+  transition-delay: 0.6s;
+}
+
+.color--purple {
+  background-color: #8F75e6;
+  transition-delay: 0.9s;
+}
+
+.color--orange {
+  background-color: #FF9154;
+  transition-delay: 1.2s;
+}
+

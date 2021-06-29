@@ -1,0 +1,30 @@
+@font-face{
+    font-family: montserrat;
+    src:url(fuentes/montserratAlternates-bold.ttf);
+    
+}
+@font-face{
+    font-family: montserratsemi;
+    src:url(fuentes/montserratAlternates-semiBold.ttf)
+}
+
+h1{
+    font-family: montserrat;
+    text-align: center;
+}
+
+h2{
+    font-family: montserratsemi;
+}
+
+h3{
+    font-family: montserratsemi;
+}
+
+h4{
+    font-family: montserratsemi;
+}
+
+h5{
+    font-family: montserratsemi;
+}
